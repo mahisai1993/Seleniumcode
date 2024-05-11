@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+  <test thread-count="5" name="Personaldept">
+    <classes>
+      <class name="saisritestng.day1"/>
+      <class name="saisritestng.day2">
+      <methods>
+		  <exclude name="thirdtest"></exclude>
+		  
+		  
+	  </methods>
+      
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="Homeloandept">
+    <classes>
+      <class name="saisritestng.day3"/>
+   <class name="saisritestng.day4">
+   <methods>
+	   
+	   <include name="WebCarloan"></include>
+	   
+   </methods>
+   </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

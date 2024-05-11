@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+  <test thread-count="5" name="Personaldept">
+	  <groups>
+		  <run>
+			  <include name="Smokecase"/>
+		  </run>
+		  
+	  </groups>
+    <classes>
+      <class name="saisritestng.day3"/>
+      <class name="saisritestng.day4">
+      
+      
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+</suite> <!-- Suite -->
